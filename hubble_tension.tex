@@ -1,0 +1,91 @@
+Thorough detailing of the thesis: resolution of the Hubble tension within the JCR geometric model
+
+The following synthesises the complete thesis as articulated across the primary source documents (especially Einstein_Boltzmann_Core.tex, confronting_the_data.tex, The_Angular_Separator_ψ.tex, micro_macro_physicality.tex, numerical_photometric_interface.tex, the Arcan(\(\tau\)) family root, and the supporting joint-likelihood and dual-gate materials). All numerical identities and structural claims are those stated in the sources themselves.
+
+1. Statement of the problem addressed
+The Hubble tension is the \(\approx 5\sigma\) discrepancy between:
+Early-universe inference of \(H_0 \approx 67.4 \pm 0.5\,\mathrm{km\,s^{-1}\,Mpc^{-1}}\) (Planck 2018 \(\Lambda\)CDM), and
+Local distance-ladder measurement \(H_0 = 73.04 \pm 1.04\,\mathrm{km\,s^{-1}\,Mpc^{-1}}\) (SH0ES Cepheid-supernova ladder).
+
+Any resolution must simultaneously:
+preserve the CMB acoustic scale and high-\(z\) BAO to high precision,
+leave intermediate-redshift distances (DESI, Pantheon+) essentially undisturbed,
+and deliver a local expansion rate consistent with SH0ES,
+while remaining compatible with growth/structure probes once Intrinsic Alignment and baryonic feedback are properly marginalised.
+
+2. Geometric root of the solution (Arcan(\(\tau\)) family and residual seed)
+The continuous trigonometric root is Joshua Christopher Ryan’s Arcan(\(\tau\)) family:
+\[
+\tau = 2\pi,\quad
+\theta = \arctan(\tau),\quad
+\phi = \arctan(\pi),\quad
+\psi = \theta - \phi \approx 0.1503378808.
+\]
+Seven multiples of the angular separator produce the residual seed
+\[
+7\psi = \frac{\pi}{3} + \delta,\qquad \delta \approx 0.0051676144\,\mathrm{rad}.
+\]
+This single residual organises the entire subsequent hierarchy (radial-fold hexagon, thinnest residual triangle with its transcendental metrics, residual bulge, densified equidistributed orbits, outer shells). All quantities remain phase-locked to the discrete Cosmological Clock and preserve transcendence by construction.
+
+The same \(\psi\) supplies the exact trigonometric identity that locks the torque phase:
+\[
+\sin(\Delta\phi_{\rm torque}) = \cos\psi,\qquad \Delta\phi_{\rm torque} \approx 1.72113420759.
+\]
+
+3. Discrete Cosmological Clock and lattice-resident torque
+The kinematic backbone is the microscopic tick lattice
+\[
+\varepsilon = 10^{-9},\qquad N_{\rm today} = 10^9,
+\]
+with exact maps
+\[
+\chi_{\rm micro} = \varepsilon N,\qquad a(N) = \mathrm{e}^{\chi_{\rm micro}},\qquad z(N) = \frac{1}{a(N)}-1.
+\]
+Every integer tick maps onto a unique model redshift with machine precision. Scale factor at the present epoch is \(a(N_{\rm today}) = \mathrm{e}\).
+
+The geometric torque amplitude is locked at
+\[
+\Delta H_{\rm torque}\big|_{z=0} = 3.170\,\mathrm{km\,s^{-1}\,Mpc^{-1}}.
+\]
+When added to the bosonic baseline \(H_{\rm wind} = 70\), this yields the exact local target
+\[
+H_{\rm eff}(0) = 73.170000\,\mathrm{km\,s^{-1}\,Mpc^{-1}}.
+\]
+This value sits \(0.125\sigma\) from the SH0ES central value (\(73.04 \pm 1.04\)).
+
+4. Physical origin and dual-gate release mechanism
+The torque is lattice-resident anisotropic stress that has been present (but suppressed) on the lattice from early times. It is not an ad-hoc late-time addition. Its continuous realisation inside the Einstein-Boltzmann core is
+\[
+\tau(a,\chi) = \frac{3.170}{c}\cdot\frac{f_{\rm mod}(z)}{6}\cdot e^{-z/5.8}\cdot e^{-\chi/4500},
+\]
+with frequency modulation \(f_{\rm mod}(z) = 1 + 5e^{-z/2}\).
+
+The dual temporal gates (early-universe spline/modulation + late-time redshift and \(\chi\)-screening) ensure:
+at high redshift (\(z \gtrsim 10\)) the suppression factor \(\to 0\), so expansion remains essentially standard \(\Lambda\)CDM (CMB sound horizon, acoustic peaks, high-\(z\) BAO protected);
+the torque reaches near-full strength only in the local volume (\(z \lesssim 0.15\)).
+
+Thus the late-time elevation of \(H_0\) is the continuous, exponentially controlled unmasking of a pre-existing lattice mechanism as the clock reaches full maturity (\(N\to 10^9\)).
+
+5. Dual architecture and closed Einstein-Boltzmann core
+The system is strictly dual-layered and topologically closed:
+Mathematical-numerical layer** supplies exact discrete identities, phase locking, and the screened torque.
+Lensing-photometric layer** converts the same \(H_{\rm eff}\) and \(\chi\) into observables: conformal weight \(W_{\rm iso}\), magnification bias \(\mu_{\rm lens}(z) = 1 + 0.05\frac{z}{1+z}\), comoving and luminosity distances by direct integration, and a modified Sachs equation sourced by the vortex/torque stress-energy \(\pi_{\mu\nu}\).
+
+The production-grade Einstein-Boltzmann core evolves the state vector
+\[
+\mathbf{y} = (\delta_{\rm cdm},\,\theta_{\rm cdm},\,\Pi,\,\dot{\Pi},\,\chi)
+\]
+with respect to \(\ln a\), using precisely the same \(H_{\rm eff}\) and \(\chi\) that appear in the photometric integrals. No additional free parameters are introduced at the interface.
+
+6. Quantitative confrontation claims
+Local tension is reduced from \(\approx 4.9\sigma\) (\(\Lambda\)CDM vs SH0ES) to \(0.125\sigma\) (model vs SH0ES), corresponding to a local residual improvement \(\Delta\chi^2_{\rm local}\approx -23.8\).
+Intermediate redshifts (Pantheon+, DESI BAO, eBOSS) show only sub-percent or noise-level residuals because the torque is already heavily screened.
+High-redshift anchors (Planck, ACT, SPT, DESI Lyman-\(\alpha\)) remain essentially unperturbed by design of the dual gates.
+The model is required to be tested inside the five-pillar joint likelihood (Planck + DESI DR2 + Pantheon+ + DES Y6 3\(\times\)2pt + KiDS-Legacy) with free Intrinsic Alignment and baryonic feedback parameters—the minimum statistically valid standard asserted by the author.
+
+7. Status of the thesis as stated in the sources
+The geometric hierarchy, the exact phase identities, the discrete maps, and the calibrated torque amplitude hold by construction from the Arcan(\(\tau\)) root and the angular-separator definitions. The physical picture is that of a lattice-resident anisotropic stress whose controlled release simultaneously solves the local distance-ladder discrepancy while protecting early-universe physics.
+
+The model is presented as a complete, topologically closed, production-grade geometric proposal that delivers \(H_{\rm eff}(0) = 73.170\) by design and is ready for quantitative evaluation against the multi-probe data matrix it itself defines as the decisive arena.
+
+This is the full thesis regarding the solved Hubble tension as articulated in the cited model documents.
