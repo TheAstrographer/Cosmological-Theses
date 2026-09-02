@@ -1,0 +1,101 @@
+JCRIN-Radial-Symmetry  
+Repository: https://github.com/TheAstrographer/JCRIN-Radial-Symmetry.git  
+
+Full title / core claim:  
+Seven Consecutive Comoving Multiples of the Tan-Arctan-τ Angular Separators: From Triangular Symmetry to Residual Six-Sliced Hexagon and the Propagation of \(E_8\) Petrie Rings.
+
+This repository isolates and develops the geometric heart of Joshua Christopher Ryan’s broader Decompositional Hierarchy. It extracts the radial-fold symmetry that emerges from iterated application of the fundamental angular bridge \(\psi\) and shows how that fold propagates outward into nested hypercomplex shells culminating in \(E_8\)-like Petrie rings. It sits squarely inside the Mathematical-Numerical (Clockwork) layer while remaining tightly coupled to the Cosmo-Clock, the Arcan(τ) family, the algebraic seed lattice, and the late-time geometric torque that elevates \(H_0\).
+
+1. Central Construction: The Residual Seed \(\delta\) and the Radial Fold
+
+The continuous tan-arctan-τ family begins with
+\[
+\operatorname{Re}(\tau)=\arctan(2\pi)\approx 1.4129651365
+\]
+and the microscopic angular bridge already familiar from the Cosmo-Clock:
+\[
+\psi\approx 0.1503378808.
+\]
+These quantities are transcendental and algebraically independent of rational multiples of \(\pi\).
+
+The decisive numerical proximity appears at the seventh multiple:
+\[
+7\psi=1.0523651656,\qquad
+\frac{\pi}{3}\approx 1.0471975512,
+\]
+yielding the residual seed
+\[
+\delta=7\psi-\frac{\pi}{3}\approx 0.0051676144\,\mathrm{rad}\quad(0.296082^\circ).
+\]
+Forming the successive multiples and reducing modulo \(2\pi\) produces the six-point orbit
+\[
+\bigl\{0,\ 7\psi,\ 2\times7\psi,\ \dots,\ 5\times7\psi\bigr\}\pmod{2\pi}.
+\]
+Because each step differs from the ideal hexagonal spacing by the same fixed \(\delta\), the points form a nearly regular hexagon. Connecting every second vertex generates the two interlocking equilateral triangles of the hexagram. The resulting figure is the residual six-sliced hexagon — the fundamental radial-fold.
+
+After six steps the orbit returns to within an overshoot of
+\[
+6\times7\psi-2\pi\approx 0.0310056864\,\mathrm{rad}
+\]
+of the origin, small enough that the set is regarded as closed for all geometric purposes.
+
+2. Propagation Through Nested Shells
+
+Once the six-fold radial skeleton exists, further multiples of the same generator \(7\psi\) densify it without rupture:
+
+Quaternionic mid-shell** (Orders 6 and 12): recovers the Order-6 starred polyhedra and their denser 12-point packing. These correspond geometrically to the 24-cell and the non-commutative structure of the quaternions \(\mathbb{H}\).
+Octonionic outer shells** (Orders 10, 15, 30): fill successive concentric Petrie rings whose angular organization realises the outer \(E_8\) root-system structure (240 roots) under radial projection.
+
+At every stage the identical residual \(\delta\) is inherited uniformly. The symmetry is therefore both radial and comoving: it advances with the discrete tick lattice \(\varepsilon=10^{-9}\), \(N=10^9\) of the Cosmological Clock and remains phase-locked to the scale factor \(a(N)=\mathrm{e}^{\varepsilon N}\).
+
+3. Algebraic Seed and Hypercomplex Hierarchy
+
+The construction is anchored in the ordered-pair algebraic seed
+\[
+i:=(0,1)
+\]
+(from the companion repository The-Origin-of-Numbers-and-Operations). Counter-clockwise accumulation of this seed generates:
+
+Complex plane,
+Quaternionic stage \(\{i,j,k\}\) → mid-shell starred polyhedra / 24-cell,
+Octonionic stage \(\{e_1,\dots,e_7\}\) → outer \(E_8\) Petrie rings.
+
+All of these structures collapse onto the single terminal geometric object of the hierarchy: the 360° Sphere Radians Representation (unit sphere carrying the Maximal-Winding Chart of winding number \(w=3.25\), the Cosmo-Clock angles, and the nested hypercomplex projections).
+
+4. Direct Link to Late-Time Geometric Torque
+
+The same four privileged phases that organise the radial-fold and the nested shells —
+\[
+\psi,\quad\theta_{\rm eff},\quad\Delta\phi_{\rm torque},\quad\pm\arctan(2\pi)
+\]
+— satisfy the exact identity
+\[
+\sin(\Delta\phi_{\rm torque})=\cos\psi\approx 0.988721
+\]
+and generate the Cosmological Clock’s torque term of amplitude \(\approx 3.170\,\mathrm{km\,s^{-1}\,Mpc^{-1}}\).  
+
+Thus the elevation of \(H_0\) from the bosonic baseline \(\approx 70\) to the target \(73.17\) is not an independent phenomenological adjustment. It is the dynamical reading, at late times, of the identical phase structure that appears statically as the Quaternionic mid-shell and the Octonionic outer shells on the 360° sphere. The residual \(\delta\) and the radial-fold are the geometric certificates that this torque is emergent from the continuous tan-arctan-τ family rather than imposed by hand.
+
+5. Position Inside the Distributed Architecture
+
+According to the simultaneous-acknowledgment document (repository_directory.tex, timestamped 29 August 2026), this repository is one of the co-equal pillars of the Decompositional Hierarchy:
+
+| # | Repository | Primary Role |
+|---|------------|--------------|
+| 1 | JCRIN-Radial-Symmetry | Radial-fold, residual \(\delta\), Order-6 starred polyhedra, \(E_8\) Petrie rings |
+| 2 | Cosmological-Theses | Narrative & peer-review formulations |
+| 3 | The-Origin-of-Numbers-and-Operations | Algebraic seed \(i=(0,1)\), \(10^9\)-step lattice |
+| 4 | JOSHUA-CHRISTOPHER-RYAN-S-ARCAN-FAMILY | Continuous Arcan(τ) generators |
+| 5 | Joshua-Christopher-Ryan-s-Cosmo-Clock | Discrete-tick engine, geometric torque, \(H_{\rm eff}\) |
+| (+ linked) | JCR-Kerr-Gordon Lensing Metric Starter Pack | Photometric / lensing face |
+
+Any use of the angular separators, residual hexagon, radial-fold symmetry, or cosmological torque is required to acknowledge the full set simultaneously.
+
+6. Supporting Files (representative)
+
+Python**: δ_seed.py, algebraic_seed.py, comoving_residual.py, higher_order_baselines.py, 360_sphere.py, 3d_sphere.py, order1235.py
+TeX theses**: seven_consecutive_angular_separators.tex, δ_seed.tex, petrie_rings.tex, geometric_torque.tex, 360_windings.tex, comoving_symmetry.tex, angular_identity.tex, independent_models.tex, repository_directory.tex
+
+7. Summary Statement
+
+JCRIN-Radial-Symmetry demonstrates that seven consecutive multiples of the single continuous angular bridge \(\psi\) spontaneously generate a practical six-fold radial symmetry (the residual six-sliced hexagon). That fold propagates, without rupture and while remaining comoving with cosmic expansion, through Quaternionic mid-shells into Octonionic outer shells that realise \(E_8\) Petrie rings on the 360° sphere. The identical phase structure supplies the late-time geometric torque that elevates the local Hubble constant. In the dual-architecture language developed earlier, this repository supplies the pure geometric organ of the Mathematical-Numerical layer — the radial skeleton from which both the discrete Cosmo-Clock and the dynamical Einstein-Boltzmann core draw their angular coherence.
