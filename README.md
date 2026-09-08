@@ -30,7 +30,7 @@ Photometric propagation into \(\chi(z)\), \(d_L(z)\), and magnification bias \(\
 
 Design goal (explicit): Early-universe physics remains standard \(\Lambda\)CDM to machine precision. The controlled release of anisotropic stress elevates only the local expansion rate to \(H_{\rm eff}(0) = 73.170\,\mathrm{km\,s^{-1}\,Mpc^{-1}}\).
 
-All algebraic identities are proven to close to machine precision grab a calculator or a piece of paper; phase debt and temporal debt are zero by construction. Supporting files include Einstein_Boltzmann_Core.tex, dual_gate_confrontation.tex, hJcrinExpansion(Theory).py, the Cobaya adapter, jcrin_dual_gate_joint.yaml, growth/observables modules, etc.
+All algebraic identities are proven to close to machine precision grab a calculator or a piece of paper; phase debt and temporal debt are zero by proven mathematical closure and discrete transport identities. Supporting files include Einstein_Boltzmann_Core.tex, dual_gate_confrontation.tex, hJcrinExpansion(Theory).py, the Cobaya adapter, jcrin_dual_gate_joint.yaml, growth/observables modules, etc.
 
 2. Standard-of-evidence component (Confronting-The-Data)
 
